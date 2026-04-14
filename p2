@@ -1,0 +1,17 @@
+
+ REVERSE A STRING USING WITHOUT USING AN IN BUILD FUNCTIONS:
+
+
+string = "CHANDRA"
+
+string2 = ""
+for i in range(len(string)-1,-1,-1):
+    string2 = string2 + string[i]
+print(string2)
+
+string = 'Chandra'
+string2 = ''
+for i in range(len(string)-1,-1,-1):
+    string2 = string2 + string[i]
+    
+print(string2)
