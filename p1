@@ -1,0 +1,21 @@
+
+
+
+#TO CHECK IF A STRING IS PALINDROME OR NOT:
+
+
+string = 'ROTOR'
+string2 = ''
+for i in range(len(string)-1,-1,-1):
+    string2 = string2 + string[i]
+if string == string2:
+    print(f'The string is Palindrome')
+else:
+    print(f'The string is not Palindrome')
+
+
+string = input('Enter a String:')
+if string == string[::-1]:
+    print('Palindrome')
+else:
+    print('Not Palindrome')
