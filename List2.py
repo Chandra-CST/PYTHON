@@ -30,4 +30,15 @@ for i in  range(1,len(num)):
 print('The Second Largest Number is :', secondlargest)
            
            
-           
+  CHECK IF THE LIST IS SORTED:
+
+num = [8,9,12,13,14,15]
+num2 = ['Chandra']
+for i in range(len(num)-1):
+    if num[i] < num[i + 1]:
+        continue
+    else:
+        print('The list is not Sorted!')
+        break
+else:
+    print('Your list is Sorted!')           
