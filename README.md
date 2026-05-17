@@ -67,7 +67,7 @@ Current features implemented:
 
 ---
 
-# 🛠 Technologies Used
+#  Technologies Used
 
 - Python 3
 - JSON
@@ -121,4 +121,4 @@ The goal of this repository is to:
 
 ### Chandra-CST
 
-Learning Python and building projects consistently 🚀
+Learning Python and building projects consistently 
